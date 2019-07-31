@@ -3,10 +3,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>My Resume</title>
+  <title>Neha Fatima Resume</title>
 
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Shadows+Into+Light&display=swap" rel="stylesheet">
+
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -14,6 +17,99 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="wrapper"> <!-- Beginning of page wrapper-->
+    <!--Main Page Header-->
+    <header id="header">
+      <nav id="navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#">Portfolio</a></li>
+          <li class="nav-item"><a href="#">About</a></li>
+          <li class="nav-item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Introduction Section-->
+    <section class="intro">
+      <img src="images/Neha Fatima.JPG" alt="Neha Fatima">
+      <h1>Neha Fatima</h1>
+      <h2>Graphic Designer</h2>
+      <p>Proin sed mattis nisl. Praesent tempor mi nec lectus mattis, id fermentum eros scelerisque. Curabitur faucibus neque non purus feugiat fermentum. Cras pulvinar lacinia nunc, quis eleifend justo lobortis tincidunt.</p>
+      <div class="contact">
+        <h3>Cell:<br> 469-386-7622</h3>
+        <h3>Email:<br> Neha.Fatima@gmail.com</h3>
+        <h3><a href="https://github.com/mohdraz">Portfolio</a></h3>
+      </div>
+    </section>
+    
+    <!-- content -->
+    <section class="content">
+        <article>
+          <header>
+            <h1>Why Hire me!</h1>
+          </header>
+          <p>Maecenas dignissim, sapien sit amet ullamcorper dictum, neque tellus suscipit neque, sit amet sodales quam tortor vitae nunc. Maecenas nisl dolor, ornare quis pulvinar non, varius et lorem. Maecenas vulputate a magna a varius. Cras nec feugiat diam. Maecenas rhoncus elementum diam id placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus in tempus augue. Morbi id eros auctor, interdum urna eu, fringilla arcu. Aliquam erat volutpat. Donec convallis lacus leo, in rutrum ipsum interdum eu. Nam ultricies nec diam quis eleifend. Morbi malesuada mi ut diam volutpat fringilla. Quisque suscipit elit quis nisl ullamcorper, nec maximus nisi ultricies. In ullamcorper lectus et massa vehicula pellentesque. Cras vulputate imperdiet dui, vitae lobortis tortor egestas id.</p>
+        </article>
+        
+        <article class="skills">
+          <header><h1>Skills</h1></header>
+          <p>
+            <ul>
+              <li>Photoshop</li>
+              <li>Corel</li>
+              <li>Dreamweaver</li>
+              <li>UI Design</li>
+              <li>UX Design</li>
+            </ul>
+          </p>
+        </article>
+    </section>
+    
+
+    <!--Work History-->
+    <article class="work">
+      <header>
+        <h1>Work History</h1>
+      </header>
+
+      <table class="work-table">
+        <thead>
+          <tr>
+            <th>Yrs</th>
+            <th>Company</th>
+            <th>Title</th>
+            <th>Tech Used</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-th="Yrs">2</td>
+            <td data-th="Company">Google</td>
+            <td data-th="Title">Graphic Designer</td>
+            <td data-th="Tech Used">Photoshop</td>
+          </tr>
+          <tr>
+            <td data-th="Yrs">3</td>
+            <td data-th="Company">Infosys</td>
+            <td data-th="Title">UI Designer</td>
+            <td data-th="Tech Used">Corel</td>
+          </tr>
+          <tr>
+            <td data-th="Yrs">5</td>
+            <td data-th="Company">Amazon</td>
+            <td data-th="Title">UX Designer</td>
+            <td data-th="Tech Used">Dreamweaver</td>
+          </tr>
+        </tbody>
+        
+      </table>
+
+    </article>
+
+    <footer>
+      <p>Copyright Neha 2018</p>
+    </footer>
+  </div> <!-- end of page wrapper-->
 </body>
 </html>
